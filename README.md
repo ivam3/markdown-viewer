@@ -4,7 +4,7 @@
 
 ## Overview
 
-**Markdown Viewer** is a lightweight application designed to display Markdown (`.md`) text files. Developed entirely in Python using the `flet` module, this tool was conceived to function efficiently in mobile environments, particularly on the Android operating system via the Termux terminal emulator.
+**Markdown Viewer** is a lightweight application designed to display Markdown (`.md`) text files. Developed entirely in Python using the `flet` module, this tool was conceived to function efficiently in mobile environments, particularly on the Android operating system via the [Termux terminal emulator](https://github.com/termux/termux-app).
 
 The primary motivation for its creation arose from the need for a native and functional Markdown viewer directly within Termux, an environment where existing solutions were limited or nonexistent.
 
@@ -65,8 +65,9 @@ Contributions are welcome. If you have suggestions, improvements, or find any bu
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the GNU License. See the [LICENSE](LICENSE) file for more details.
 
+##### Follow me on [Socials Network](https://link.space/@ivam3)
 ---
 
-**Developed with ❤️ by IbyC Hacklab**
+**Developed by Ivam3byCinderella**
