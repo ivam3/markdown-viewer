@@ -1,2 +1,2 @@
 # markdown-viewer
-Markdown-viewer is a lightweight application developed using the Python programming language and the flet module.
+Markdown-viewer is a lightweight application developed using the Python programming language and the flet module. It's a simple viewer for Markdown text files (.md). The project was developed directly on an Android operating system using the Termux terminal emulator configured with the i-Haklab lab. Its creation was intended for use and implementation within Termux due to the lack of a viewer of this type.
