@@ -1,72 +1,72 @@
-# Visor de Markdown (Markdown Viewer)
+# Markdown Viewer
 
-![Logo de la aplicación](markdown_viewer_app/src/assets/logo-IbyC-circulo.png)
+![Application Logo](markdown_viewer_app/src/assets/logo-IbyC-circulo.png)
 
-## Descripción General
+## Overview
 
-**Markdown Viewer** es una aplicación ligera diseñada para visualizar archivos de texto Markdown (`.md`). Desarrollada completamente en Python utilizando el módulo `flet`, esta herramienta fue concebida para funcionar eficientemente en entornos móviles, particularmente en el sistema operativo Android a través del emulador de terminal Termux.
+**Markdown Viewer** is a lightweight application designed to display Markdown (`.md`) text files. Developed entirely in Python using the `flet` module, this tool was conceived to function efficiently in mobile environments, particularly on the Android operating system via the Termux terminal emulator.
 
-La motivación principal para su creación surgió de la necesidad de un visor de Markdown nativo y funcional directamente en Termux, un entorno donde las soluciones existentes eran limitadas o inexistentes.
+The primary motivation for its creation arose from the need for a native and functional Markdown viewer directly within Termux, an environment where existing solutions were limited or nonexistent.
 
-## Características
+## Features
 
-*   **Visualización de Markdown:** Renderiza archivos `.md` de forma limpia y legible.
-*   **Diseño Responsivo:** Interfaz adaptada para diferentes tamaños de pantalla, ideal para dispositivos móviles.
-*   **Integración con Termux:** Optimizado para un rendimiento fluido en el ecosistema Termux.
-*   **Desarrollado en Python/Flet:** Utiliza una pila tecnológica moderna que permite un desarrollo rápido y una interfaz de usuario atractiva.
+*   **Markdown Visualization:** Renders `.md` files cleanly and legibly.
+*   **Responsive Design:** Interface adapted for different screen sizes, ideal for mobile devices.
+*   **Termux Integration:** Optimized for smooth performance within the Termux ecosystem.
+*   **Developed in Python/Flet:** Utilizes a modern technology stack that allows for rapid development and an attractive user interface.
 
-## Instalación
+## Installation
 
-### Requisitos
+### Requirements
 
 *   Python 3.x
-*   PIP (Administrador de paquetes de Python)
-*   Termux (si se instala en Android)
-*   Módulo `flet`
+*   PIP (Python Package Manager)
+*   Termux (if installing on Android)
+*   `flet` module
 
-### Pasos de Instalación (para Termux/Android)
+### Installation Steps (for Termux/Android)
 
-1.  **Actualizar Termux:**
+1.  **Update Termux:**
     ```bash
     pkg update && pkg upgrade
     ```
 
-2.  **Instalar Python y PIP:**
+2.  **Install Python and PIP:**
     ```bash
     pkg install python python-pip
     ```
 
-3.  **Clonar el Repositorio:**
+3.  **Clone the Repository:**
     ```bash
     git clone https://github.com/tu_usuario/markdown-viewer.git
     cd markdown-viewer
     ```
-    (Nota: Reemplaza `https://github.com/tu_usuario/markdown-viewer.git` con la URL real de tu repositorio si es diferente.)
+    (Note: Replace `https://github.com/tu_usuario/markdown-viewer.git` with the actual URL of your repository if different.)
 
-4.  **Instalar Dependencias:**
+4.  **Install Dependencies:**
     ```bash
     pip install -r markdown_viewer_app/requirements.txt
     ```
 
-## Uso
+## Usage
 
-Para iniciar la aplicación, navega hasta el directorio `markdown_viewer_app` y ejecuta el script `main.py`:
+To start the application, navigate to the `markdown_viewer_app` directory and run the `main.py` script:
 
 ```bash
 cd markdown_viewer_app/src
 python main.py
 ```
 
-La aplicación se abrirá, permitiéndote navegar y visualizar tus archivos Markdown.
+The application will open, allowing you to browse and view your Markdown files.
 
-## Contribuciones
+## Contributions
 
-Las contribuciones son bienvenidas. Si tienes sugerencias, mejoras o encuentras algún error, no dudes en abrir un "issue" o enviar un "pull request" en el repositorio de GitHub.
+Contributions are welcome. If you have suggestions, improvements, or find any bugs, feel free to open an "issue" or submit a "pull request" on the GitHub repository.
 
-## Licencia
+## License
 
-Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ---
 
-**Desarrollado con ❤️ por IbyC Hacklab**
+**Developed with ❤️ by IbyC Hacklab**
